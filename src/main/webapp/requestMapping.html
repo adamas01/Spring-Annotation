@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>@RequestMapping</h1>
+<a href="a.do">a.do요청</a>
+<a href="rem/a.do">a.do요청</a>
+<a href="rem/a.do">a.do요청</a>
+<a href="rem/a.do">a.do요청</a>
+
+<h3>get방식</h3>
+<form action="rem/test.do" method="get">
+이름:<input type="text" name="name"/>
+<input type="submit" value="전송"/>
+</form>
+
+<h3>post방식</h3>
+<form action="rem/test.do" method="post">
+이름:<input type="text" name="name"/>
+<input type="submit" value="전송"/>
+</form>
+
+<hr>
+<a href="rem/a.do?id=hoonA">params 요청1</a>
+<a href="rem/a.do?id=donald trump">params 요청2</a>
+</body>
+</html>
